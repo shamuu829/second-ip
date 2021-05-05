@@ -1,0 +1,106 @@
+
+.overlay{
+  background-color: rgba(97, 84, 78, 0.856);
+  margin-top:1%;
+  color: white;
+  border: 1px solid white;
+}
+img{
+  width: 100%;
+  
+ 
+}
+.card{
+  background: teal;
+  background-color: rgba(5, 146, 146, 0.6);
+  box-shadow: 3px 3px 5px black;
+
+}
+.repo{
+  background-color:rgb(228, 231, 211);
+  color: black;
+  margin-bottom: 2%;
+  border-radius: 4px; 
+  box-shadow: 3px 3px 5px black;
+}
+a{
+  text-decoration: none;
+}
+.content{
+  margin-top: 1.3%;
+  margin-bottom: 0.5%;
+}
+.user{
+  margin-left:1;
+  margin-top: 1%;
+}
+#imgcard{
+  margin-top: 1%;
+  margin-bottom: 3%;
+  border-radius: 8px;
+  margin-right: 5%;
+}
+p{
+  font-size: 18px;
+}
+.name{
+  font-size: 18px;
+}
+.btn{
+  margin-top: -1%;
+  float: right;
+}
+.allrepos{
+  font-family: 'Lustria', serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+hr{
+  background-color: rgb(11, 199, 199);
+  height: 1px;
+}
+.desc{
+  min-height: 95px;
+}
+.top{
+  font-weight: bold;
+}
+.btn-group{
+  margin-left: 13px;
+}
+#visit a{
+  text-decoration: none;
+  color: beige;
+}
+.repos h2{
+  font-size: 45px;
+  margin-bottom: 2%;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+#click img{
+  width: 20px;
+  height: 60px;
+}
+.follow{
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 1%;
+  float: right;
+  margin-right: 20%;
+}
+.datejoined{
+  float: right;
+  margin-right: 14%;
+}
+#profile{
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+.forks{
+  font-size: 10px;
+}
+#created{
+  font-weight: 400;
+}  

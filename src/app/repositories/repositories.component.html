@@ -1,0 +1,23 @@
+<div class="card shadow p-3 mb-5 bg-white rounded card quote-card" *ngFor="let repo of repo">
+  <div class="cardbody">
+    <div class="card">
+      <div class="card-body">
+        <div class="card-title"><a href={{repo.html_url}} target="_blank"
+          appClickedRepo>{{repo.name|titlecase}}</a>
+      </div>
+      <p class="card-text" *ngIf="repo.description">{{repo.description}}</p>
+      <p class="card-text" *ngIf="!repo.description">No description for this repo</p>
+      <small>Last updated on {{repo.updated_at|date}}</small><br>
+      <div *ngIf="repo.language">
+          <i class="bi bi-circle-fill"></i>&nbsp;{{repo.language}}
+        </div>&nbsp;&nbsp;
+        <div *ngIf="!repo.language">
+          <i class="bi bi-circle-fill"></i>&nbsp;No specified language
+        </div>&nbsp;&nbsp;
+        <div>
+          {{repo.forks}}&nbsp;<i class="fas fa-code-branch"></i>&nbsp;Forks
+        </div>
+    </div>
+  </div>
+</div>
+</div>
